@@ -2,8 +2,8 @@ name: AWS CLI with Credentials
 
 on:
   push:
-    branches:
-      - main
+    paths:
+      - '.github/workflows/aws-cli-install.yml
 
 jobs:
   use-aws-cli:
